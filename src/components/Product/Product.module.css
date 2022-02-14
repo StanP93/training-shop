@@ -1,0 +1,21 @@
+.product {
+    width: 23%;
+    margin-top: 30px;
+}
+.product_image {
+    width: 100%;
+}
+.product p {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+    opacity: 0.6;
+    margin: 16px 0 12px 0;
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+}

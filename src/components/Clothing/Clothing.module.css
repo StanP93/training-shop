@@ -1,0 +1,65 @@
+.wrapper {
+    width: 86%;
+    margin: auto;
+}
+.clothes h2 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.clothes li {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    color: #121212;
+    opacity: 0.6;
+}
+
+.clothes ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clothes li:first-child {
+    opacity: 1;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0 18px 0;
+}
+
+.allProducts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footButton {
+    margin-top: 48px;
+    background-color: #f8f8f8;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.8;
+    padding: 17.6px 0 15.4px 0;
+}
+.footButton a {
+    text-decoration: none;
+    color: #121212;
+}
