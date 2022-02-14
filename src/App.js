@@ -2,12 +2,13 @@ import React from 'react';
 import './reset.css';
 import './index.css';
 import Header from './components/Header/Header';
-
+import Title from './components/Title/Title';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <div className="App" data-test-id ='app'>
+      <Header data-test-id='header'/>
+      <Title/>
     </div>
   );
 }
