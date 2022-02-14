@@ -1,0 +1,16 @@
+.header_up_left_part {
+    display: flex;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+    color: #FFFFFF; 
+    opacity: 0.8;
+    width: 33%;
+    align-items: center;
+    padding: 5px 0;
+}
+.header_up_left_part img {
+    margin-right: 8px;
+}
