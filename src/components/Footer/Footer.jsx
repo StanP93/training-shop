@@ -30,7 +30,7 @@ const contactUs = [
 
 const Footer = () => {
   return (
-    <footer>
+    <footer data-test-id='footer'>
         <div className={classes.footer_top}>
           <div className={classes.wrapper}>
             <h3>BE IN TOUCH WITH US:</h3>

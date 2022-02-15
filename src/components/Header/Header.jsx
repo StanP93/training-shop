@@ -26,7 +26,7 @@ const navList = ['About us', 'Women', 'Men', 'Beauty', 'Accessories', 'Blog','Co
 const buttonList = [search,globe,user,shopping];
 const Header = () => {
   return (
-    <header>
+    <header data-test-id='header'>
           <div className={classes.header_up}>
             <div className={classes.wrapper}>
               <div className={classes.header_up_left}>
