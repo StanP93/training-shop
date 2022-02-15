@@ -11,7 +11,7 @@
     font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.833vw;
     line-height: 18px;
     margin: auto 0;
     letter-spacing: 0.06em;
@@ -39,7 +39,7 @@
     font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 1.016vw;
     line-height: 18px;
     color: grey;
 }
@@ -122,4 +122,28 @@
     text-decoration-line: underline;
     color: #121212;
     opacity: 0.8;
+}
+@media (max-width: 620px) {
+    .footer_middle li {
+        font-size: 9px;
+    }
+    .footer_middle li:first-child {
+        font-size: 9px;
+    }
+    .icons {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 480px) {
+    .footer_middle li {
+        font-size: 6px;
+    }
+    .footer_middle li:first-child {
+        font-size: 6px;
+    }
+}
+@media (max-width:1280px) {
+    .joinUs {
+        text-align: center;
+    }
 }

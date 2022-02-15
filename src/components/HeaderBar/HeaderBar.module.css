@@ -14,3 +14,8 @@
 .header_up_left_part img {
     margin-right: 8px;
 }
+@media (max-width:550px) {
+    .header_up_left_part {
+        width: auto;
+    }
+}

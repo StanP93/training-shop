@@ -23,12 +23,12 @@ const Title = () => {
           <div className={classes.images}>
             <div className={classes.images_left}>
               <img src={titleImage} alt="1" width='100%'/>
-              <img src={arrowLeft} alt="arrow" style={{position: 'absolute', top: '46%',left: '5%'}}/>
+              <img src={arrowLeft} alt="arrow" style={{position: 'absolute', top: '46%',left: '5%'}} className={classes.arrow}/>
               <div className={classes.banner_left}>
                   <p>BANNER</p>
                   <h2>YOUR TITLE TEXT</h2>
               </div>
-              <img src={arrowRight} alt="arrow" style={{position: 'absolute', top: '46%',right: '5%'}}/>
+              <img src={arrowRight} alt="arrow" style={{position: 'absolute', top: '46%',right: '5%'}} className={classes.arrow}/>
             </div>
             <div className={classes.images_right}>
               <div className={classes.images_right_1}>

@@ -18,7 +18,7 @@
     font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.833vw;
     line-height: 13px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -31,7 +31,7 @@
     font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.111vw;
     line-height: 18px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -46,4 +46,17 @@
     top: 37%;
     left: 24%;
     border-radius: 3px;
+}
+@media (max-width: 700px) {
+    .catalogBanner {
+        top: 20%;
+    }
+    .catalog h3 {
+        margin: 0;
+    }
+}
+@media (max-width: 550px) {
+    .catalog p {
+        margin: 0;
+    }
 }

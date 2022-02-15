@@ -63,3 +63,8 @@
     text-decoration: none;
     color: #121212;
 }
+@media (max-width: 850px) {
+    .clothes ul {
+        display: none;
+    }
+}

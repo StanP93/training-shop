@@ -44,7 +44,7 @@ const Header = () => {
                 {navList.map((item,index)=><a href={item} key={index}>{item}</a>)}
               </nav>
               <div className={classes.header_down_icons}>
-                {buttonList.map((item,index)=><button key={index}><img src={item} alt='button' /></button>)}
+                {buttonList.map((item,index)=>item === shopping ? <button key={index} style={{position:'relative'}}><img src={item} alt='button' /><span className={classes.cart}>2</span></button>:<button key={index}><img src={item} alt='button' /></button>)}
               </div>
             </div>
           </div>

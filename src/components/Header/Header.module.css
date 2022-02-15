@@ -5,7 +5,6 @@
     justify-content: space-between;
 }
 .header_up {
-    
     background-color: black;
 }
 .header_up_left {
@@ -51,4 +50,29 @@
 }
 .header_down_icons button:hover {
     cursor: pointer;
+}
+.cart {
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: -20%;
+}
+@media (max-width: 850px) {
+    .header_down_list {
+        display: none;
+    }
+}
+@media (max-width:550px) {
+    .header_up_left {
+        flex-direction: column;
+    }
+    .header_up_right {
+        justify-content: space-around;
+    }
+    .header_down_icons {
+        justify-content: right;
+    }
 }

@@ -67,7 +67,7 @@
     font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.528vw;
     line-height: 25px;
     align-items: center;
     letter-spacing: 0.06em;
@@ -78,7 +78,7 @@
     font-family: 'Spartan';
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.833vw;
     line-height: 13px;
     align-items: center;
     letter-spacing: 0.06em;
@@ -96,7 +96,7 @@
     font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.972vw;
     line-height: 22px;
     display: flex;
     align-items: center;
@@ -106,4 +106,14 @@
     color: #121212;
     justify-content: center;
     border-radius: 3px;
+}
+@media (max-width: 700px) {
+    .arrow {
+        display: none;
+    }
+}
+@media (max-width: 420px) {
+    .banner_left p {
+        display: none;
+    }
 }
