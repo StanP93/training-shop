@@ -1,0 +1,49 @@
+.wrapper {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lookbook {
+    padding: 96px 0;
+}
+.lookbook img {
+    width: 100%;
+    vertical-align: bottom;
+}
+.catalog {
+    position: relative;
+}
+.catalog p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+    margin: 16px 0 8px 0;
+
+}
+.catalog h3 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 16px;
+}
+.catalogBanner {
+    position: absolute;
+    text-align: center;
+    width: 54%;
+    background-color: white;
+    top: 37%;
+    left: 24%;
+    border-radius: 3px;
+}
