@@ -1,0 +1,82 @@
+.subscribe {
+    background: linear-gradient(180deg, #F3F2F2 0%, #DCDBDB 100%);
+    padding: 60px 0;
+    position: relative;
+}
+.subscribe img {
+    position: absolute;
+    right: 15%;
+    bottom: 3%;
+}
+.subscribe img:first-child {
+    left: 11%;
+    bottom: -38px;
+}
+.subscribe_block {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 42%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe_block p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.4;
+    margin: 80px 0 16px 0;
+}
+.subscribe_block h2 {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    width: 47%;
+}
+.subscribe_block input {
+    background: #F8F8F8;
+    width: 64%;
+    border: none;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #121212;
+    opacity: 0.4;
+    height: 64px;
+    margin: 32px 0 24px 0;
+}
+.subscribe_block button {
+    background: #121212;
+    border: 2px solid #121212;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.9;
+    width: 64%;
+    height: 64px;
+    margin-bottom: 96px;
+}

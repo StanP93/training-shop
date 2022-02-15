@@ -5,7 +5,9 @@ import Header from './components/Header/Header';
 import Title from './components/Title/Title';
 import Clothing from './components/Clothing/Clothing';
 import LookBook from './components/LookBook/LookBook';
-
+import Subscribe from './components/Subscribe/Subscribe';
+import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -15,9 +17,9 @@ function App() {
       <Clothing sex={'women'}/>
       <Clothing sex={'men'}/>
       <LookBook />
-      <div className='subscribe'>
-        
-      </div>
+      <Subscribe />
+      <Blog />
+      <Footer />
     </div>
   );
 }
