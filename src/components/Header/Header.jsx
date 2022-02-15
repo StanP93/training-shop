@@ -39,8 +39,8 @@ const Header = () => {
           </div>
           <div className={classes.header_down}>
             <div className={classes.wrapper}>
-              <img src={cleverShop} alt="logo" />
-              <nav className={classes.header_down_list}>
+              <img src={cleverShop} alt="logo" data-test-id='header-logo-link'/>
+              <nav className={classes.header_down_list} data-test-id='menu'>
                 {navList.map((item,index)=><a href={item} key={index}>{item}</a>)}
               </nav>
               <div className={classes.header_down_icons}>
