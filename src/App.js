@@ -14,8 +14,8 @@ function App() {
     <div className="App" data-test-id ='app'>
       <Header/>
       <Title/>
-      <Clothing sex={'women'} data-test-id={`clothes-${women}`}/>
-      <Clothing sex={'men'} data-test-id={`clothes-${men}`}/>
+      <Clothing sex={'women'} data-test-id={`clothes-women`}/>
+      <Clothing sex={'men'} data-test-id={`clothes-men`}/>
       <LookBook />
       <Subscribe />
       <Blog />
