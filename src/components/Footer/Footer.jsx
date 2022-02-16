@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 
 const payments = [stripe,aes,paypal,visa,mastercard,discover,americanExpress];
 const socialIcons = [facebook,twitter,instagram,pinterest];
-const categories = ['Men','Women','Accessories','Beauty'];
+const categories = ['men','women','accessories','beauty'];
 const information = ['information','About us', 'Contact us', 'Blog', 'FAQs'];
 const usefulLinks = ['useful Links','Terms & Conditions', 'Returns & Exchanges', 'Shipping & Delivery', 'Privacy Policy'];
 const contactUs = [

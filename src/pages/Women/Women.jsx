@@ -8,7 +8,7 @@ import loading from '../../icons/loading.svg';
 
 const Women = () => {
   return (
-    <div data-test-id={`products-page-men`}>
+    <div data-test-id={`products-page-women`}>
         <Header/>
         <PageTitle sex={'women'}/>
         <Clothing sex={'women'}/>

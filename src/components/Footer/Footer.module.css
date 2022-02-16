@@ -91,6 +91,7 @@
     line-height: 34px;
     color: #121212;
     opacity: 0.8;
+    text-transform: capitalize;
 }
 .footer_middle a {
     text-decoration: none;
