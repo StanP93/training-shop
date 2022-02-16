@@ -1,25 +1,19 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './reset.css';
 import './index.css';
-import Header from './components/Header/Header';
-import Title from './components/Title/Title';
-import Clothing from './components/Clothing/Clothing';
-import LookBook from './components/LookBook/LookBook';
-import Subscribe from './components/Subscribe/Subscribe';
-import Blog from './components/Blog/Blog';
-import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import Women from './pages/Women/Women';
+import Men from './pages/Men/Men';
 
 function App() {
   return (
     <div className="App" data-test-id ='app'>
-      <Header/>
-      <Title/>
-      <Clothing sex={'women'} data-test-id={`clothes-women`}/>
-      <Clothing sex={'men'} data-test-id={`clothes-men`}/>
-      <LookBook />
-      <Subscribe />
-      <Blog />
-      <Footer/>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/women" element={<Women />} />
+        <Route exact path="/men" element={<Men />} />
+      </Routes>
     </div>
   );
 }

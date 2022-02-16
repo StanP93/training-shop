@@ -15,6 +15,7 @@ import mastercard from '../../icons/mastercard.png';
 import discover from '../../icons/discover.png';
 import americanExpress from '../../icons/american-express.png';
 import classes from './Footer.module.css';
+import { Link } from 'react-router-dom';
 
 const payments = [stripe,aes,paypal,visa,mastercard,discover,americanExpress];
 const socialIcons = [facebook,twitter,instagram,pinterest];
@@ -45,7 +46,7 @@ const Footer = () => {
         </div>
         <div className={classes.footer_middle}>
           <ul>
-            {categories.map((i,index)=><li key={index}>{i}</li>)}
+            {categories.map((i,index)=><li key={index}><Link to={i}>{i}</Link></li>)}
           </ul>
           <ul>
             {information.map((i,index)=><li key={index}>{i}</li>)}

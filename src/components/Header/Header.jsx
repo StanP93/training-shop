@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import phone from '../../icons/header-phone.svg';
 import location from '../../icons/header-location.svg';
 import clock from '../../icons/header-clock.svg';
@@ -39,9 +40,9 @@ const Header = () => {
           </div>
           <div className={classes.header_down}>
             <div className={classes.wrapper}>
-              <img src={cleverShop} alt="logo" data-test-id='header-logo-link'/>
+              <Link to='/'><img src={cleverShop} alt="logo" data-test-id='header-logo-link'/></Link>
               <nav className={classes.header_down_list} data-test-id='menu'>
-                {navList.map((item,index)=><a href={item} key={index}>{item}</a>)}
+                {navList.map((item,index)=><Link to={`/${item}`} key={index}>{item}</Link>)}
               </nav>
               <div className={classes.header_down_icons}>
                 {buttonList.map((item,index)=>item === shopping ? <button key={index} style={{position:'relative'}}><img src={item} alt='button' /><span className={classes.cart}>2</span></button>:<button key={index}><img src={item} alt='button' /></button>)}

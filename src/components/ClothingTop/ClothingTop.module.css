@@ -1,0 +1,44 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0 48px 0;
+    width: 86%;
+    margin: auto;
+}
+.title h2 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.title li {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.06em;
+    color: #121212;
+    opacity: 0.6;
+}
+
+.title ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title li:first-child {
+    opacity: 1;
+}
+@media (max-width: 850px) {
+    .title ul {
+        display: none;
+    }
+}

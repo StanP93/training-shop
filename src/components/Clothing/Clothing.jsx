@@ -43,22 +43,12 @@ const Clothing = ({sex}) => {
   return (
     <div className={classes.clothes}>
         <div className={classes.wrapper}>
-          <div className={classes.title}>
-            <h2>{sex}'s</h2>
-            <ul>
-              <li>NEW ARRIVALS</li>
-              <li>SPECIALS</li>
-              <li>BESTSELLERS</li>
-              <li>MOST VIEWED</li>
-              <li>FEATURED PRODUCTS</li>
-            </ul>
-          </div>
           <div className={classes.allProducts}>
             {sex === 'women' ? womenClothing.map((item,index)=><Product image={item.image} text={item.text} price={item.price} rating={item.rating} key={index}/>) : menClothing.map((item,index)=><Product image={item.image} rating={item.rating} text={item.text} price={item.price} key={index}/>)}
           </div>
-          <div className={classes.footButton}>
+          {/* <div className={classes.footButton}>
             <a href={sex}>See All</a>
-          </div>
+          </div> */}
         </div>
       </div>
   )

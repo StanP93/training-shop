@@ -1,0 +1,76 @@
+.back {
+    background-color: #F8F8F8;
+}
+.wrapper {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.back_left {
+    display: flex;
+    margin: 7px 0;
+}
+.back a {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.back p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+    text-transform: capitalize;
+}
+.back span {
+    margin: 0px 6px;
+}
+a:nth-child(2) {
+    margin: 7px 0;
+}
+.back img {
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+h1 {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.footer {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+.footer div {
+    display: flex;
+    align-items: center;
+}
+.footer h3 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+}
