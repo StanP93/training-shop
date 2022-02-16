@@ -103,13 +103,25 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #121212;
     justify-content: center;
     border-radius: 3px;
+}
+.banner_right a {
+    color: #121212;
+    text-decoration: none;
 }
 @media (max-width: 700px) {
     .arrow {
         display: none;
+    }
+    .options_wrapper {
+        flex-direction: column;
+    }
+    .images_left {
+        display: none;
+    }
+    .images_right {
+        margin: auto;
     }
 }
 @media (max-width: 420px) {

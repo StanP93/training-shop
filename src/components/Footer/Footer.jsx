@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 
 const payments = [stripe,aes,paypal,visa,mastercard,discover,americanExpress];
 const socialIcons = [facebook,twitter,instagram,pinterest];
-const categories = ['categories','Men','Women','Accessories','Beauty'];
+const categories = ['Men','Women','Accessories','Beauty'];
 const information = ['information','About us', 'Contact us', 'Blog', 'FAQs'];
 const usefulLinks = ['useful Links','Terms & Conditions', 'Returns & Exchanges', 'Shipping & Delivery', 'Privacy Policy'];
 const contactUs = [
@@ -46,7 +46,8 @@ const Footer = () => {
         </div>
         <div className={classes.footer_middle}>
           <ul>
-            {categories.map((i,index)=><li key={index}><Link to={i}>{i}</Link></li>)}
+            <li>Categories</li>
+            {categories.map((i,index)=><li key={index}><Link to={`/${i}`} data-test-id ={`footer-nav-link-${i}`}>{i}</Link></li>)}
           </ul>
           <ul>
             {information.map((i,index)=><li key={index}>{i}</li>)}

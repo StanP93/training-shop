@@ -10,6 +10,7 @@ import classes from './Title.module.css';
 import arrowLeft from '../../icons/arrow-left.svg';
 import arrowRight from '../../icons/arrow-right.svg';
 import TitleOptions from '../TitleOptions/TitleOptions';
+import { Link } from 'react-router-dom';
 
 const optionsList = [
     {image: truck, title: 'FREE SHIPPING', description: 'On all UA order or order above $100'},
@@ -34,13 +35,13 @@ const Title = () => {
               <div className={classes.images_right_1}>
                 <img src={titleImage2} alt="2" width='100%' />
                 <div className={classes.banner_right}>
-                    <h3>Women</h3>
+                    <Link to='/women'>Women</Link>
                 </div>
               </div>
               <div className={classes.images_right_2}>
                 <img src={titleImage3} alt="3" width='100%' />
                 <div className={classes.banner_right}>
-                    <h3>Men</h3>
+                <Link to='/men'>Men</Link>
                 </div>
               </div>
               <div className={classes.images_right_3}>

@@ -22,7 +22,7 @@ const barInfo = [
 
 const socialIcons = [facebook,twitter,instagram,pinterest];
 
-const navList = ['About us', 'Women', 'Men', 'Beauty', 'Accessories', 'Blog','Contact'];
+const navList = ['about us', 'women', 'men', 'beauty', 'accessories', 'blog','contact'];
 
 const buttonList = [search,globe,user,shopping];
 const Header = () => {
@@ -42,7 +42,7 @@ const Header = () => {
             <div className={classes.wrapper}>
               <Link to='/'><img src={cleverShop} alt="logo" data-test-id='header-logo-link'/></Link>
               <nav className={classes.header_down_list} data-test-id='menu'>
-                {navList.map((item,index)=><Link to={`/${item}`} key={index}>{item}</Link>)}
+                {navList.map((item,index)=><Link to={`/${item}`} key={index} data-test-id={`menu-link-${item}`}>{item}</Link>)}
               </nav>
               <div className={classes.header_down_icons}>
                 {buttonList.map((item,index)=>item === shopping ? <button key={index} style={{position:'relative'}}><img src={item} alt='button' /><span className={classes.cart}>2</span></button>:<button key={index}><img src={item} alt='button' /></button>)}

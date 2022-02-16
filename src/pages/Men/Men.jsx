@@ -8,7 +8,7 @@ import loading from '../../icons/loading.svg';
 
 const Men = () => {
   return (
-    <div>
+    <div data-test-id={`products-page-men`}>
         <Header/>
         <PageTitle sex={'men'}/>
         <Clothing sex={'men'}/>

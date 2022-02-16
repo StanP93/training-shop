@@ -1,12 +1,12 @@
 .product {
-    width: 23%;
     margin-bottom: 30px;
+    text-decoration: none;
 }
 .product_image {
     width: 100%;
 }
 .product p {
-    font-family: Spartan;
+    font-family: 'Spartan',sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -18,4 +18,12 @@
 .rating {
     display: flex;
     justify-content: space-between;
+}
+.rating span {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
 }

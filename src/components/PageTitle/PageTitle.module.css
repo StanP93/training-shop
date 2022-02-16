@@ -33,7 +33,7 @@
 .back span {
     margin: 0px 6px;
 }
-a:nth-child(2) {
+.wrapper a:nth-child(2) {
     margin: 7px 0;
 }
 .back img {

@@ -1,0 +1,390 @@
+.back {
+    background-color: #F8F8F8;
+}
+.wrapper {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.back_left {
+    display: flex;
+    margin: 7px 0;
+}
+.back a {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.back_left p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+    text-transform: capitalize;
+}
+.back_left span {
+    margin: 0px 6px;
+}
+.wrapper a:last-child {
+    margin: 7px 0;
+}
+.back img {
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+h1 {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #121212;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.footer {
+    width: 86%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+.footer div {
+    display: flex;
+    align-items: center;
+}
+.footer h3 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+}
+.back_bottom {
+    display: flex;
+}
+.back_bottom img {
+    vertical-align: baseline;
+}
+.back_bottom p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+    opacity: 0.6;
+    margin-right: 24px;
+    padding-bottom: 6px;
+}
+.back_bottom p:last-child {
+    margin: 0;
+}
+.back_bottom span {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+}
+.main {
+    padding-bottom: 96px;
+}
+.main_small_images {
+    width: 94px;
+}
+.main_small_images img {
+    margin-top: 16px;
+    vertical-align: bottom;
+}
+.chevrons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+.title_image {
+    position: relative;
+    padding-top: 32px;
+}
+.title_image img {
+    vertical-align: bottom;
+}
+.product_info {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+}
+.colorAndSize {
+    border-bottom: 2px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.colorAndSize h3{
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+.colorAndSize span {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #121212;
+    opacity: 1;
+}
+.colorAndSize img:nth-child(2) {
+    margin-bottom: 32px;
+}
+.colorAndSize div {
+    display: flex;
+    margin: 12px 0 32px 0;
+    align-items: center;
+}
+.colorAndSize p {
+    font-family: 'Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #121212;
+    opacity: 0.6;
+    margin-left: 6px;
+}
+.priceAndButton {
+    display: flex;
+    padding: 32px 0;
+    align-items: center;
+    border-bottom: 2px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.priceAndButton p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #121212;
+    margin-right: 24px;
+
+}
+.priceAndButton button {
+    background: #121212;
+    border: 2px solid #121212;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.9;
+    padding: 17px 24px;
+}
+.priceAndButton img {
+    margin-left: 28px;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #121212;
+    opacity: 0.6;
+}
+.options div {
+    display: flex;
+    align-items: center;
+}
+.options img {
+    margin-right: 6px;
+}
+.payments {
+    display: flex;
+}
+.payments h3 {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-right: 62px;
+}
+.payments div {
+    border-bottom: 2px solid #E6E6E6;
+    box-sizing: border-box;
+    height: 8px;
+    color: transparent;
+}
+.description {
+    border-bottom: 2px solid #E6E6E6;
+    border-top:  2px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.description h3{
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.6;
+    padding: 32px 0;
+}
+.additional {
+    padding: 32px 0;
+    border-bottom: 2px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.additional h3 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 32px;
+}
+.additional p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #121212;
+    opacity: 0.6;
+}
+.blackColor {
+    font-weight: 800;
+}
+.reviews {
+    padding: 32px 0;
+}
+.reviews h3{
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 32px;
+}
+.starsReview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.annotation {
+    display: flex;
+    align-items: inherit;
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #121212;
+    opacity: 0.6;
+}
+.peoples p {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #121212;
+    opacity: 0.8;
+    padding-bottom: 32px;
+}
+.peoples_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.peoples_1 h2 {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #121212;
+}
+.peoples_1 span {
+    font-family: 'Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    color: #121212;
+    opacity: 0.4;
+    margin-right: 8px;
+}
+.peoples:last-of-type {
+    border-bottom: 2px solid #E6E6E6;
+}
+.prefooter {
+    width: 86%;
+    margin: auto;
+}
+.prefooter_1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+.prefooter_1 h2 {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+}
+.prefooter_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
