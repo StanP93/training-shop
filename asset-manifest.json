@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/training-shop/static/css/main.0e6c636b.css",
-    "main.js": "/training-shop/static/js/main.2c80805f.js",
+    "main.css": "/training-shop/static/css/main.cb87641a.css",
+    "main.js": "/training-shop/static/js/main.86e1a425.js",
     "static/media/images-four.svg": "/training-shop/static/media/images-four.1c2c685283e1eda3537a6ad321ba990f.svg",
     "static/media/product-small3.svg": "/training-shop/static/media/product-small3.f1db109c08bb65a91a95e1f5826794ed.svg",
     "static/media/product-small2.svg": "/training-shop/static/media/product-small2.2ce67b6c93eca042a0ca15f59051ec80.svg",
@@ -77,11 +77,11 @@
     "static/media/list.svg": "/training-shop/static/media/list.f1d242843fc15f61cc5abf04d2079f81.svg",
     "static/media/chevron-up.svg": "/training-shop/static/media/chevron-up.56bc9cd660679bdd0011dd2f5533496e.svg",
     "static/media/chevron-down.svg": "/training-shop/static/media/chevron-down.00c9144ab235b9958a420117323d7892.svg",
-    "main.0e6c636b.css.map": "/training-shop/static/css/main.0e6c636b.css.map",
-    "main.2c80805f.js.map": "/training-shop/static/js/main.2c80805f.js.map"
+    "main.cb87641a.css.map": "/training-shop/static/css/main.cb87641a.css.map",
+    "main.86e1a425.js.map": "/training-shop/static/js/main.86e1a425.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e6c636b.css",
-    "static/js/main.2c80805f.js"
+    "static/css/main.cb87641a.css",
+    "static/js/main.86e1a425.js"
   ]
 }
